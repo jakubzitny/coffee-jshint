@@ -31,7 +31,7 @@
     "marviq"
   ],
   "license": "BSD-3-Clause",
-  "name": "coffee-jshint",
+  "name": "@avocode/coffee-jshint",
   "peerDependencies": {
     "coffee-script": ">= 1.6 < 2"
   },
