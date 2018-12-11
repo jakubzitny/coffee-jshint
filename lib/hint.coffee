@@ -33,6 +33,7 @@ hintFiles = (paths, config, log) ->
     catch err
       if config.verbose then console.log "Error reading #{path}"
       return []
+    if config.config then options.config = config.config
     errors = hint source, options, buildTrueObj config.globals
     if log and errors.length > 0
       console.log "--------------------------------"
