@@ -6,7 +6,7 @@
     "url": "https://github.com/marviq/coffee-jshint/issues"
   },
   "dependencies": {
-    "jshint": "~2.9.2",
+    "jshint": "2.10.2",
     "optimist": "~0.6.1",
     "underscore": "~1.8.3"
   },
